@@ -17,6 +17,7 @@ body {
 .espaco {
     width: 80px;
     height: 80px;
+    background-color: rgb(253, 224, 162);
     border: 2px solid #333;
     border-radius: 5px;
     display: flex;
@@ -34,10 +35,27 @@ body {
     color: #333;
 }
 
+.peca {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.preta {
+    background-color: #494949;
+    border: 1px solid black;
+}
+
+.branca {
+    background-color: #ddd;
+    border: 1px solid #999;
+}
+
 #reiniciar {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #4c4eaf;
     color: white;
     border: none;
     border-radius: 5px;
@@ -46,5 +64,5 @@ body {
 }
 
 #reiniciar:hover {
-    background-color: #45a049;
+    background-color: #4b45a0;
 }

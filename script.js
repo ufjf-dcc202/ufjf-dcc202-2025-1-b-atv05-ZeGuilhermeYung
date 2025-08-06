@@ -1,4 +1,4 @@
-import { configuraEventos, atualizaJogo } from './jogo.js';
+import { atualizaJogo, configuraEventos } from './jogo.js';
 
 atualizaJogo();
 configuraEventos();

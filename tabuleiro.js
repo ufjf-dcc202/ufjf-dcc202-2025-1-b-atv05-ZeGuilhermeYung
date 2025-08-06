@@ -5,7 +5,7 @@ export function inicializaTabuleiro(estadoAtual, espacoTabuleiro) {
         if (estadoAtual[posicao]) {
             const peca = document.createElement('div');
             peca.className = `peca ${estadoAtual[posicao]}`;
-            peca.dataset.posicao = posicao;
+            peca.setAttribute('data-posicao', posicao);
             espaco.appendChild(peca);
         }
     });
